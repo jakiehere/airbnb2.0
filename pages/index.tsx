@@ -1,21 +1,18 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Header from '../components/header'
-import Banner from '../components/banner'
-import SmallCard from '../components/smallCard'
-import MediumCard from '../components/mediumCard'
-import LargeCard from '../components/largeCard'
-import Footer from '../components/footer'
+import Head from 'next/head';
 
-
+import Banner from '../components/banner';
+import Footer from '../components/footer';
+import Header from '../components/header';
+import LargeCard from '../components/largeCard';
+import MediumCard from '../components/mediumCard';
+import SmallCard from '../components/smallCard';
 
 export default function Home({ exlporeData, cardData }: any) {
     return (
         <>
-            <div className=''>
+            <div>
                 <Head>
-                    <title>PAPA Airbnb</title>
+                    <title>Airbnb</title>
                 </Head>
 
                 <Header placeholder={""} />
